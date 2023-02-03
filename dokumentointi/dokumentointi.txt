@@ -1,0 +1,88 @@
+Koti automaatio projektin dokumentointi
+
+
+1.0  Sisällysluettelo
+
+
+
+
+2.0 - Alusta ja tekniset osat
+         2.1 Projektin alusta
+                Projekti pohjautuu Raspberry Pi yhden piirilevyn tietokoneelle joka
+                on tarkalta malliltaan  Model B neljän gigatavun keskusmuistilla. 
+                Raspberrystä löytyy ethernet portti joka tukee 1Gb/s nopeutta, kaksi usb
+                3.0 porttia ja kaksi usb 2.0 porttia. Kuulokeliitäntä 3,5mm, kaksi micro-
+                hdmi porttia, camera moduulin portti, kosketus näytölle portti, ohjelmoitavat gpio pinnejä 
+                20kpl ja virtaporttina toimii USB tyypin C liitäntä.
+         2.2 -  
+
+3.0 - Käyttöjärjestelmä asennus
+         2.1 - Yleinen tieto
+                Käyttöjärjestelmänä toimii Raspberryn oma raspbian lite 64bittinen ¨
+                versio ilman graafistaköyttöliittymää. 
+        2.2 - Asennuket valmistelut
+                Macbookille asennetaan rasbianin oma työkalu nimeltään
+                "Raspberry pi imager" jolla  niin sanotusti "Flashätään"
+                käyttöjärjestelmä muistikortille. Työkalun asenneuttua avaataan
+                "Raspberry pi imager" ja valitaan käyttöjärjestelmä joka fläshätään.
+                Minun tapauksessani valitaan  Raspberry pi OS Lite (64) bittinen versio. Jonka 
+                jälkeen valitaan muistitikku tai sd kortti johon käyttö järjestelmä asennetaan.
+        2.3 - Asennuksen konfigurointi
+                Työkalun oikeassa ala reunassa löytyy hammasratas kuvake ( Asetukset )
+                
+
+
+
+
+
+                
+
+
+
+
+
+9.0 - Muistio mistä kirjoittaa.
+        apache2 asennus 
+
+
+        9.§
+
+                lisää -> /etc/apache2/apache2.conf  ( Raspberryssä, muissa käyttöjärjestelmissä ei(tutki vielä asiaa))
+                        <Directory "/path/to/website/root/">
+                                DirectoryIndex "file.name.php"
+                        </Directory>
+
+
+        9.2
+                /etc/apache2/sites-enable/000.file
+                        konfiguroi filu
+                        DocumentRoot /path/
+
+
+        9.3
+                /etc/apache2/apache2.conf 
+                        konffaa polku oikaeksi(raspberryssä + muissa distroissa.) muissa distroissa lisää "DirectoryIndex file.name.php"
+                                <Directory /home/valtteri/homeAutomation/phpDir>
+                                        Options Indexes FollowSymLinks
+                                        AllowOverride None
+                                        Require all granted
+                                </Directory>
+
+
+
+        9.4 pythonin valmiiksi laitto
+                asenna seuraavat paketit 
+                        sudo apt install python3-pip
+                        sudo apt install python3-venv
+                virtualenvin laitto
+                        python3 -m venv venv
+                        source venv/bin/active
+        
+
+        9.5 mariadb asennus
+                sudo apt install mariadb-server, mariadb-clien
+
+                sudo mysql_secure_installation
+        
+                install mariadb connector to python and dependecies
+                        sudo apt-get install -y libmariadb3 libmariadb-dev

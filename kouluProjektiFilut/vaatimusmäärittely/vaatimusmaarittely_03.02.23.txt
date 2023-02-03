@@ -1,0 +1,75 @@
+1. Johdanto
+
+1.1 Tarkoitus ja kattavuus
+
+1.2 Tuote ja ympäristö
+
+1.3 Määritelmät, termit ja lyhenteet
+
+1.4 Viitteet
+
+1.5 Yleiskatsaus dokumenttiin
+ ***myöhemmin***
+
+2. Yleiskuvaus
+
+2.1 Ympäristö
+
+2.2 Toiminta
+
+2.3 Käyttäjät
+
+2.4 Yleiset rajoitteet
+
+2.5 Oletukset ja riippuvuudet
+
+3. Tiedot ja tietokanta
+
+3.1 Tietosisältö
+
+3.1 Käsitteet omiin alakohtiinsa
+
+3.2 Käyttöintensiteetti
+
+3.3 Kapasiteettivaatimukset
+
+3.4 Tiedostot ja asetustiedostot
+
+4. Toiminnot
+    4.1 Kukin toiminto omaan alakohtaansa
+
+5. Ulkoiset liittymät
+
+5.1 Laitteistoliittymät
+
+5.2 Ohjelmistoliittymät
+
+5.3 Tietoliikenneliittymät
+
+6. Muut ominaisuudet
+
+6.1 Suorituskyky ja vasteajat
+
+6.2 Saavutettavuus (availability), toipuminen, turvallisuus, suojaukset
+
+6.3 Ylläpidettävyys
+
+6.4 Siirrettävyys ja yhteensopivuus
+
+6.5 Operointi
+
+6.6 Käytettävyys (Usability), käytön tehokkuus, käyttäjien tyytyväisyys
+
+7. Suunnittelurajoitteet
+
+7.1 Standardit
+
+7.2 Laitteistorajoitteet
+
+7.3 Ohjelmistorajoitteet
+
+7.4 Muut rajoitteet
+
+8. Hylätyt ratkaisuvaihtoehdot
+
+9. Jatkokehitysajatuksia
