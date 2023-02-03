@@ -1,0 +1,18 @@
+Tehtiin vaatimusmäärittelyä alustavasti.
+
+Ideointia:
+	-Ohjelmassa voi lisätä myöhemmin käyttäjiä (bluetooth laitteita) sekä poistaa niitä haluttaessa.
+	-Ohjelma tarkistaa saatavilla olevat bluetooth laitteet ja vertaa niitä tietokannassa oleviin laitteisiin.
+	-Admin käyttöliittymä web pohjainen missä kirjautimisikkuna.
+	-Ehkä Tavallisen käyttäjän käyttäjäikkuna.
+	-Admin käyttöliittymässä on Setup jossa tehdään alkuasetukset.
+
+Scrum:
+	-Scrum sprintti on viikko.
+	-Seuraava palaveri 10.3.2023 klo.12.00
+	-Product Backlog löytyy kansiosta /kouluProjektiFilut/scrum/productBackLog/
+	-Sprint Backlog löytyy kansiosta /kouluProjektiFilut/scrum/sprintBackLog/
+
+Tulevan sprintin tehtävät:
+	-Testataan c# bluetoothia ja tietokantaa 
+	-suunnitellaan web käyttöliittymää
