@@ -13,7 +13,7 @@
     2.2 Toiminta
         Raspberry tunnistaa C# kieltä käyttäen bluetooth laitteistoja huoneistossa lähinnä puhelimia jonka perusteella tietokantaan tulee informaatio
         onko perheenjäsen kotona perustuen puhelimen bluetooth sijaintiin.
-        
+
     2.3 Käyttäjät
         perjeenjäsenet. 
 
@@ -80,7 +80,7 @@
     7.1 Standardit
 
     7.2 Laitteistorajoitteet
-
+        kuinka monta bluetooth laitetta raspberryn bluetooth pystyy yhtidstömään samanaikaisesti
     7.3 Ohjelmistorajoitteet
 
     7.4 Muut rajoitteet
