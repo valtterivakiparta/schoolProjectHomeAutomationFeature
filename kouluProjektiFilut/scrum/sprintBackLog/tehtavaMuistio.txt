@@ -1,0 +1,29 @@
+Harjoitellaan
+    - bluetooth yhteys C# kautta puhelimiin.
+        - testejä
+        - onko valmiiksi tuttuja bluetooth IDEitä saatavilla jotka ovat tietokannassa? 
+        - bluetooth datan keräämistä. (mitä dataa?)
+
+    - Tietokanta suunnittelu
+        - mariadb? mongodb? MySQL? 
+            -tietokannan luonti
+                - taulujen rakenne
+                    - luonti
+        -integraatio c#
+
+
+Suunnitellaan
+    - web pohjainen käyttöliittymä
+        - kirjautumis ikkuna admin liittymälle
+            - admin käyttöliittymä
+                - asennusvalikko systeemi
+        - SQL injektio esto tietoturva syistä. 
+
+
+    - Tietokanta suunnittelu
+        - mariadb? mongodb? MySQL? 
+            -tietokannan luonti
+                - taulujen rakenne
+                    - luonti
+        -integraatio c#
+
