@@ -1,0 +1,11 @@
+
+Yleistä:
+    -käytetään mysql tietokantaa
+    
+Tulevan sprintin tehtävät:
+    -etsitään uusi bluetooth kirjasto jossa on hyvä dokumentaatio
+    -mietitään tietokannan rakennetta sekä nimiä ja mitä tietoa halutaan saada tietokantaan
+    -mietitään millä tavalla bluetooth laitteita haetaan ja käytetään
+
+Scrum:
+    -seuraava palaveri on 17.2.2023 klo 12
