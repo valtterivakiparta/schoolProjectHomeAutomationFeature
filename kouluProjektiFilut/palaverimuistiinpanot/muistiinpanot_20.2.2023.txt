@@ -1,0 +1,10 @@
+Yleistä:
+    - Suunniteltiin Frontendin sivujen layoutit
+    - Rekisteröini sivu admin liittymälle ja bluetooth laitteille. 
+    - bluetooth laite näkymä. 
+    - sql liittymä queryjen lähettämiselle.
+
+Tulevan sprintin tehtävät:
+    Seuraavaan palaveriin 22.2 mennessä 
+        - tietokanta käyttäjille adminliittymään.  Valtteri
+        - login page.  Aleksi
